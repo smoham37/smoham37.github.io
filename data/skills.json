@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "name": "Languages",
+      "items": [
+        "SQL",
+        "Python"
+      ]
+    },
+    {
+      "name": "BI & Reporting",
+      "items": [
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Power Query",
+        "Salesforce",
+        "Dashboard development",
+        "KPI monitoring"
+      ]
+    },
+    {
+      "name": "Data Platforms",
+      "items": [
+        "Snowflake",
+        "AWS",
+        "Amazon Athena",
+        "Amazon Redshift",
+        "Data warehousing"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "items": [
+        "dbt",
+        "ETL",
+        "Pandas",
+        "NumPy",
+        "Data transformation",
+        "Data preparation"
+      ]
+    },
+    {
+      "name": "Analytics",
+      "items": [
+        "Healthcare analytics",
+        "Cohort analysis",
+        "Anomaly detection",
+        "Scikit-learn",
+        "Data quality",
+        "Data governance"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "items": [
+        "Git",
+        "JIRA",
+        "Agile"
+      ]
+    }
+  ]
+}

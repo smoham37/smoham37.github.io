@@ -1,0 +1,83 @@
+{
+  "roles": [
+    {
+      "company": "Cigna Healthcare",
+      "logo": "assets/images/logos/cigna-healthcare.svg",
+      "title": "Data Analyst",
+      "start": "January 2025",
+      "end": "February 2026",
+      "location": "Remote",
+      "description": "Healthcare claims analytics in Snowflake and AWS environments, supporting operational reporting, utilization metrics and KPI monitoring with analytics, product and operations teams.",
+      "highlights": [
+        "Build and maintain claims-based data extracts and analytics pipelines in Snowflake and AWS, processing over 8M+ healthcare claim records annually.",
+        "Write and optimize complex SQL in Snowflake and Athena, including joins, window functions, performance tuning, pipeline automation and quarterly data refreshes.",
+        "Automate recurring reporting and reconciliation workflows with SQL, Python and dbt, reducing manual reporting preparation effort by approximately 35%.",
+        "Develop performance measures and cohort analysis models in SQL and Python to identify utilization trends and claims-based patterns.",
+        "Investigate data quality issues and metric discrepancies, documenting methodology, sources and assumptions for auditable, repeatable reporting.",
+        "Prepare curated datasets for Power BI reporting and apply anomaly detection with Python and Scikit-learn."
+      ],
+      "technologies": [
+        "Snowflake",
+        "AWS",
+        "Athena",
+        "SQL",
+        "Python",
+        "dbt",
+        "Power BI",
+        "Scikit-learn",
+        "JIRA",
+        "Git",
+        "Agile"
+      ]
+    },
+    {
+      "company": "Dr. Reddy's Laboratories",
+      "logo": "assets/images/logos/dr-reddys-laboratories.svg",
+      "title": "Junior Data Analyst",
+      "start": "January 2022",
+      "end": "November 2023",
+      "location": "Hyderabad, Telangana, India",
+      "description": "Reporting and dashboards for manufacturing operations, inventory and supply-chain stakeholders, working with operational and IT teams.",
+      "highlights": [
+        "Built and maintained SQL-based data extracts and performance measures for manufacturing operations, inventory and supply-chain reporting.",
+        "Developed Tableau and Power BI dashboards for production and compliance stakeholders to monitor batch-processing efficiency and operational KPIs.",
+        "Translated business specifications into analytical SQL logic and reusable validation queries, reducing recurring metric discrepancies by approximately 25%.",
+        "Built Python-based ETL utilities for data transformation and pipeline automation, reducing manual reporting effort by approximately 30%.",
+        "Investigated data-quality issues and maintained auditable methodology, data-source and reporting documentation."
+      ],
+      "technologies": [
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Python",
+        "ETL",
+        "Excel"
+      ]
+    },
+    {
+      "company": "Bajaj Finserv",
+      "logo": "assets/images/logos/bajaj-finserv.svg",
+      "title": "Data Analyst Trainee",
+      "start": "January 2021",
+      "end": "December 2021",
+      "location": "Hyderabad, Telangana, India",
+      "description": "Data extraction, analysis and dashboards on customer, lending and transactional datasets supporting repayment analytics and KPI reporting.",
+      "highlights": [
+        "Performed SQL-based extraction and analysis on customer, lending and transactional datasets containing over 2M+ records to support repayment analytics and KPI reporting.",
+        "Developed Tableau and Power BI dashboards tracking repayment behavior, delinquency trends and lending performance benchmarks.",
+        "Built Python data transformation and automation scripts using Pandas and NumPy, and assisted with Snowflake and Amazon Redshift environments.",
+        "Maintained reporting documentation, KPI definitions and data-governance records while collaborating with analytics and operations teams."
+      ],
+      "technologies": [
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Snowflake",
+        "Amazon Redshift"
+      ]
+    }
+  ]
+}

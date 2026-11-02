@@ -1,0 +1,244 @@
+{
+  "projects": [
+    {
+      "name": "field-ops-sql-cost-audit",
+      "category": "Analytics engineering",
+      "description": "A dbt and SQL analytics project that reconciles messy field-operations data into a cost-to-serve per job and route, and shows where SLA breaches concentrate. Recursive route sequencing, utilization windows and cost allocation are modeled once, under test.",
+      "highlights": [
+        "Layered dbt pipeline (staging, business logic, reporting views) over dispatch, route, timesheet and fuel tables.",
+        "Tableau cost-to-serve explorer and SLA-breach heatmap by region and time of day.",
+        "dbt tests and a GitHub Actions gate on every push; runs fully offline on DuckDB."
+      ],
+      "technologies": [
+        "SQL",
+        "dbt",
+        "DuckDB",
+        "Tableau",
+        "Python",
+        "GitHub Actions"
+      ],
+      "links": {
+        "source": "https://github.com/smoham37/field-ops-sql-cost-audit"
+      },
+      "image": "assets/images/projects/field-ops-sql-cost-audit.svg",
+      "hero": {
+        "src": "assets/images/projects/field-ops-sql-cost-audit-hero.jpg",
+        "alt": "field-ops-sql-cost-audit — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "retail-margin-cockpit",
+      "category": "Business intelligence",
+      "description": "A governed margin and inventory source of truth for small and mid-size retail teams: a tested dbt star schema, a DAX measure library and a Power BI semantic model with row-level security.",
+      "highlights": [
+        "56+ dbt tests (not_null, unique, relationships, accepted_values) across the star schema.",
+        "Regional Manager and HQ Analyst row-level-security roles, plus a Postgres RLS demo.",
+        "Surfaced Footwear gross margin at 42.4% against a 49.9% blended average."
+      ],
+      "technologies": [
+        "dbt",
+        "DuckDB",
+        "Power BI",
+        "DAX",
+        "PostgreSQL",
+        "Python"
+      ],
+      "links": {
+        "source": "https://github.com/smoham37/retail-margin-cockpit"
+      },
+      "image": "assets/images/projects/retail-margin-cockpit.svg",
+      "hero": {
+        "src": "assets/images/projects/retail-margin-cockpit-hero.jpg",
+        "alt": "retail-margin-cockpit — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "lakehouse-quality-gate",
+      "category": "Data quality",
+      "description": "An active data-quality gate for a dbt and Iceberg lakehouse. A Great Expectations checkpoint sits between the intermediate layer and the marts, blocks the pipeline on bad data and sends a webhook alert naming the failing expectations.",
+      "highlights": [
+        "Four failure modes tested: null floods, duplicate keys, negative values and schema drift.",
+        "Failed checks stop the marts from being built and send an alert with sample offending row IDs."
+      ],
+      "technologies": [
+        "dbt",
+        "Great Expectations",
+        "DuckDB",
+        "Apache Iceberg",
+        "Airflow",
+        "Python"
+      ],
+      "links": {
+        "source": "https://github.com/smoham37/lakehouse-quality-gate"
+      },
+      "image": "assets/images/projects/lakehouse-quality-gate.svg",
+      "hero": {
+        "src": "assets/images/projects/lakehouse-quality-gate-hero.jpg",
+        "alt": "lakehouse-quality-gate — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "elt-pipeline-dbt-snowflake-airflow",
+      "category": "Data engineering",
+      "description": "An ELT pipeline that extracts data from Reddit, OpenWeather and a PostgreSQL SaaS database, loads it into Snowflake and transforms it with dbt, with testing, documentation and lineage. Airflow runs the daily refresh.",
+      "highlights": [
+        "Three source systems loaded into Snowflake raw schemas.",
+        "dbt staging, intermediate and mart layers with not_null, unique, accepted_values and freshness checks.",
+        "GitHub Actions CI and Slack alerting on failures."
+      ],
+      "technologies": [
+        "Snowflake",
+        "dbt",
+        "Airflow",
+        "Python",
+        "GitHub Actions",
+        "Docker"
+      ],
+      "links": {
+        "source": "https://github.com/smoham37/elt-pipeline-dbt-snowflake-airflow"
+      },
+      "image": "assets/images/projects/elt-pipeline-dbt-snowflake-airflow.svg",
+      "hero": {
+        "src": "assets/images/projects/elt-pipeline-dbt-snowflake-airflow-hero.jpg",
+        "alt": "elt-pipeline-dbt-snowflake-airflow — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "healthcare-analytics",
+      "category": "Healthcare analytics",
+      "description": "MedInsight, a patient analytics dashboard that scores readmission risk before discharge, with risk stratification, population health cohort analysis and explainable predictions.",
+      "highlights": [
+        "Random Forest readmission model reported at 85.2% accuracy and 0.89 AUC-ROC.",
+        "SHAP explainability and cohort analysis for risk-factor identification.",
+        "Role-based access control and audit logging."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "scikit-learn",
+        "Next.js",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "links": {
+        "source": "https://github.com/smoham37/healthcare-analytics"
+      },
+      "image": "assets/images/projects/healthcare-analytics.svg",
+      "hero": {
+        "src": "assets/images/projects/healthcare-analytics-hero.jpg",
+        "alt": "healthcare-analytics — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "weather-data-pipeline-great-expectations",
+      "category": "Data engineering",
+      "description": "A weather pipeline that collects hourly observations for 50+ global cities from the Open-Meteo API, validates each batch with Great Expectations and transforms it with dbt into analytics-ready BigQuery tables.",
+      "highlights": [
+        "Quality checks cover schema, null rates, value ranges, row counts and freshness; failures halt the pipeline and alert Slack.",
+        "21 unit tests across 5 suites.",
+        "Incremental dbt marts for daily weather and 30-day city climate summaries."
+      ],
+      "technologies": [
+        "BigQuery",
+        "dbt",
+        "Great Expectations",
+        "Prefect",
+        "Python",
+        "Looker Studio"
+      ],
+      "links": {
+        "source": "https://github.com/smoham37/weather-data-pipeline-great-expectations"
+      },
+      "image": "assets/images/projects/weather-data-pipeline-great-expectations.svg",
+      "hero": {
+        "src": "assets/images/projects/weather-data-pipeline-great-expectations-hero.jpg",
+        "alt": "weather-data-pipeline-great-expectations — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "multi-source-marketing-analytics",
+      "category": "Marketing analytics",
+      "description": "A marketing analytics pipeline that streams CRM and e-commerce database changes through Debezium and Kafka, adds ad-platform REST data, and models a Customer 360 view in Snowflake with dbt.",
+      "highlights": [
+        "CDC from PostgreSQL and MySQL plus Google Analytics, Google Ads and Facebook Ads sources.",
+        "dbt star schema with SCD Type 2 snapshots and a dim_customer_360 model.",
+        "14 unit tests passing across 3 suites."
+      ],
+      "technologies": [
+        "Debezium",
+        "Kafka",
+        "Spark",
+        "Snowflake",
+        "dbt",
+        "Python"
+      ],
+      "links": {
+        "source": "https://github.com/smoham37/multi-source-marketing-analytics"
+      },
+      "image": "assets/images/projects/multi-source-marketing-analytics.svg",
+      "hero": {
+        "src": "assets/images/projects/multi-source-marketing-analytics-hero.jpg",
+        "alt": "multi-source-marketing-analytics — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "ecommerce-lakehouse-medallion",
+      "category": "Data warehousing",
+      "description": "An e-commerce lakehouse built on a Bronze, Silver and Gold medallion architecture with Delta Lake, SCD Type 2 tracking and a Gold star schema for BI, plus dbt models for the Silver-to-Gold step.",
+      "highlights": [
+        "Bronze raw ingestion, Silver cleaning and deduplication, Gold facts and dimensions.",
+        "Customer value segmentation and RFM scoring in the Gold layer.",
+        "8 unit tests passing across 2 suites."
+      ],
+      "technologies": [
+        "Databricks",
+        "Delta Lake",
+        "PySpark",
+        "dbt",
+        "Python",
+        "Unity Catalog"
+      ],
+      "links": {
+        "source": "https://github.com/smoham37/ecommerce-lakehouse-medallion"
+      },
+      "image": "assets/images/projects/ecommerce-lakehouse-medallion.svg",
+      "hero": {
+        "src": "assets/images/projects/ecommerce-lakehouse-medallion-hero.jpg",
+        "alt": "ecommerce-lakehouse-medallion — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "enhanced-anomaly-detection-system",
+      "category": "Machine learning",
+      "description": "A deep-learning anomaly detection system for cloud network traffic that trains and compares LSTM, CNN and autoencoder models on the CSE-CIC-IDS2018 and MAWIFlow 2025 datasets.",
+      "highlights": [
+        "Multi-dataset training with feature engineering and weighted sampling for class balance.",
+        "Side-by-side evaluation of accuracy, precision, recall and F1 across three model architectures."
+      ],
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "scikit-learn",
+        "pandas",
+        "NumPy"
+      ],
+      "links": {
+        "source": "https://github.com/smoham37/enhanced-anomaly-detection-system"
+      },
+      "image": "assets/images/projects/enhanced-anomaly-detection-system.svg",
+      "hero": {
+        "src": "assets/images/projects/enhanced-anomaly-detection-system-hero.jpg",
+        "alt": "enhanced-anomaly-detection-system — Concept render",
+        "caption": "Concept render"
+      }
+    }
+  ]
+}

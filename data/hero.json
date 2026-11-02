@@ -1,0 +1,45 @@
+{
+  "name": "Samreen Mohammed",
+  "title": "Data Analyst | SQL, Python, Power BI & Tableau",
+  "summary": "Data analyst with experience in healthcare claims, lending and manufacturing reporting. I build SQL and Python pipelines, curated datasets and Power BI and Tableau dashboards that turn large datasets into auditable, repeatable KPIs. Master's in Computer Science in progress at Auburn University at Montgomery.",
+  "location": "Alpharetta, Georgia, United States",
+  "readouts": [
+    {
+      "value": "8M+",
+      "label": "claim records processed annually at Cigna"
+    },
+    {
+      "value": "2M+",
+      "label": "lending records analyzed at Bajaj Finserv"
+    },
+    {
+      "value": "~35%",
+      "label": "less manual reporting effort at Cigna"
+    },
+    {
+      "value": "~25%",
+      "label": "fewer metric discrepancies at Dr. Reddy's"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "View projects",
+      "href": "#projects",
+      "kind": "primary"
+    },
+    {
+      "label": "Résumé",
+      "href": "assets/files/samreen-mohammed-resume.pdf",
+      "kind": "resume"
+    },
+    {
+      "label": "Get in touch",
+      "href": "#contact",
+      "kind": "secondary"
+    }
+  ],
+  "social": {
+    "github": "https://github.com/smoham37",
+    "linkedin": "https://www.linkedin.com/in/samreen-mohammed-658925273"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "paragraphs": [
+    "I work in analytics across healthcare, lending and manufacturing. At Cigna Healthcare I built claims-based extracts and analytics pipelines in Snowflake and AWS covering more than 8M healthcare claim records annually.",
+    "My day-to-day is complex SQL (joins, window functions, performance tuning), Python for cohort analysis and anomaly detection, and dbt for automating recurring reporting and reconciliation. That automation cut manual reporting preparation effort by about 35%.",
+    "I document methodology, data sources and assumptions so reporting is auditable and repeatable. I also prepare curated datasets for Power BI and other downstream BI tools.",
+    "I am interested in Data Analyst, Business Intelligence Analyst and Business Analyst roles, and open to relocation and remote, hybrid or on-site work."
+  ],
+  "highlights": [
+    {
+      "label": "Focus",
+      "value": "Healthcare & business analytics"
+    },
+    {
+      "label": "Most recent role",
+      "value": "Data Analyst, Cigna Healthcare"
+    },
+    {
+      "label": "Core tools",
+      "value": "SQL, Python, Power BI, Tableau"
+    },
+    {
+      "label": "Data platforms",
+      "value": "Snowflake, AWS, Redshift"
+    },
+    {
+      "label": "Education",
+      "value": "MS Computer Science (Expected May 2026)"
+    },
+    {
+      "label": "Base",
+      "value": "Alpharetta, Georgia"
+    },
+    {
+      "label": "Open to",
+      "value": "Remote, hybrid, on-site, relocation"
+    }
+  ]
+}
