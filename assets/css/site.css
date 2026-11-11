@@ -129,6 +129,8 @@ h2 em{font-style:italic;color:var(--amber)}
 .ledger{border-top:1px solid var(--paper)}
 .role{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.6fr);gap:var(--s6) clamp(32px,5vw,80px);padding:clamp(32px,4vw,52px) 0;border-bottom:1px solid var(--line)}
 .role-meta{font-family:var(--mono);font-size:.84rem;color:var(--muted);display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.co-logo{display:flex;align-items:center;justify-content:center;width:172px;height:64px;padding:12px 18px;margin-bottom:6px;background:var(--ink-2);border:1px solid var(--line);border-radius:2px}
+.co-logo img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
 .role-meta .dates{color:var(--paper);font-size:.92rem;line-height:1.5}
 .role-meta .loc{display:flex;gap:8px;align-items:center}
 .role-meta .loc svg{width:16px;height:16px;flex:none;color:var(--amber)}
@@ -243,6 +245,7 @@ h2 em{font-style:italic;color:var(--amber)}
   .about{grid-template-columns:1fr}
   .role{grid-template-columns:1fr;gap:var(--s4)}
   .role-meta{flex-direction:row;flex-wrap:wrap;align-items:center;gap:10px 16px}
+  .co-logo{width:150px;height:56px;padding:10px 14px;margin:0 calc(100% - 150px) 2px 0}
   .edu{grid-template-columns:1fr}
   .band .wrap{grid-template-columns:1fr}
 }
